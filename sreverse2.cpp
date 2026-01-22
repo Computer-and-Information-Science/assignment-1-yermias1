@@ -13,6 +13,9 @@ int main() {
 }
 
 string reverse (const string& s) {
+	static int count = 0;
+count++;
+cout << "count: " << count << endl;
 	if (s.size() > 1)
 		return reverse(s.substr(1)) + s.substr(0, 1);
 	return s;
