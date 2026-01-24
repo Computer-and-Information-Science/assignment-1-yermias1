@@ -5,18 +5,18 @@
 - input/parameter impacting number of calls-
 *The input parameter impacting the number of function calls in the factorial function is the value of n.
 - 3 specific examples of input/parameter and number of calls-
-*n=5, count=6; n=10, count=11; n=20, count=21
+*n=5, count=6; n=10, count=11; n=20, count=21.
 - number of recursive calls when input/parameter is *n*-
-*The function on n is n+1
+*The function on n is n+1.
 
 ## ireverse2.cpp
 
 - input/parameter impacting number of calls-
 *The input parameter affecting the number of function calls in the ireverse function is n is true as long it is a nonzero number. 
 - 3 specific examples of input/parameter and number of calls-
-*n=123456, count=7; n=98765432, count=9; n=123, count=4
+*n=123456, count=7; n=98765432, count=9; n=123, count=4.
 - number of recursive calls when input/parameter is *n*
-For n>0, the number of recursive calls is the number of digits plus one; for n=0, there is only one call
+For n>0, the number of recursive calls is the number of digits plus one; for n=0, there is only one call.
 
 ## sreverse2.cpp
 
@@ -38,12 +38,18 @@ For n>0, the number of recursive calls is the number of digits plus one; for n=0
 
 ## tower.cpp
 
-- input/parameter impacting number of calls
-- 3 specific examples of input/parameter and number of calls
-- number of recursive calls when input/parameter is *n*
+- input/parameter impacting number of calls-
+*The number of recursive calls is determined by the number of disks (n).
+- 3 specific examples of input/parameter and number of calls-
+*n=1, count 3; n=2, count=7; n=3, count=15.
+- number of recursive calls when input/parameter is *n*-
+*if n≥0: exactly 2ⁿ⁺¹ − 1 recursive calls.
 
 ## fibonacci2.cpp (presented in video lesson)
 
-- input/parameter impacting number of calls
-- 3 specific examples of input/parameter and number of calls
-- number of recursive calls when input/parameter is *n*
+- input/parameter impacting number of calls-
+*Number of recursive calls is determined by the value of n passed to fib.
+- 3 specific examples of input/parameter and number of calls-
+*n=0, count=1; n=1, count=1; n=5, count=6.
+- number of recursive calls when input/parameter is *n*-
+*If n≥0: exactly n + 1 recursive calls
