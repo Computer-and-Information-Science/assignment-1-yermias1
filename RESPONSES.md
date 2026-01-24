@@ -31,8 +31,10 @@ For n>0, the number of recursive calls is the number of digits plus one; for n=0
 
 - input/parameter impacting number of calls-
 *The number of recursive calls is affected by the number of characters (n) in the string.
-- 3 specific examples of input/parameter and number of calls
-- number of recursive calls when input/parameter is *n*
+- 3 specific examples of input/parameter and number of calls-
+*str=123, count=6(123,132,213,231,312,321); str=45, count=2(45,54) str=666, count=6(666-6 times)
+- number of recursive calls when input/parameter is *n*-
+*If n>0, the function makes more than n! recursive calls, growing rapidly as n increases; if n=0, it makes exactly 1 call.
 
 ## tower.cpp
 
